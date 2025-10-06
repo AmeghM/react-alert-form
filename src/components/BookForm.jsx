@@ -155,14 +155,10 @@ function BookForm() {
             </Form.Group>
           </Row>
 
-          <div>
+          <div className="d-flex justify-content-end mt-3">
             <p
-              className=" text-danger fw-semibold"
-              style={{
-                cursor: "pointer",
-                marginLeft: "450px",
-                fontSize: "18px",
-              }}
+              className="text-danger fw-semibold mb-0"
+              style={{ cursor: "pointer", fontSize: "18px" }}
               onClick={clearInput}
             >
               Clear form
